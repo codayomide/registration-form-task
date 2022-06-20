@@ -1,0 +1,144 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+    background-image: url(../resources/images/bg-intro-desktop.png);
+}
+
+#container {
+    padding: 10vh 0px;
+    height: 100vh;
+
+    background-color: hsla(0, 100%, 74%, 0.65);
+}
+
+#main {
+    margin: auto;
+    width: 80%;
+    min-height: 80vh;
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+    padding: 15px;
+}
+
+#info {
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#info h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+
+    padding: 10px 0px;
+}
+
+#info p {
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+
+    padding: 10px 0px;
+}
+
+#register {
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#trial-info {
+    background-color: hsl(248, 32%, 49%);
+    color: white;
+
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+#trial-info b {
+    font-weight: 600;
+}
+
+#form {
+    background-color: white;
+
+    flex-grow: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 30px;
+    border-radius: 10px;
+}
+
+#form div {
+    width: 100%;
+}
+
+#form input,
+#form button {
+    width: 100%;
+    font-size: 16px;
+
+    border-radius: 5px;
+    padding: 15px 30px;
+}
+
+#form input {
+    border: solid 1px hsl(246, 25%, 77%);
+    font-weight: 600;
+
+    outline: none;
+}
+
+#form input:focus {
+    border: solid 2px hsl(248, 32%, 49%);
+
+    caret-color: hsl(248, 32%, 49%);
+}
+
+#form button {
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+
+    border: solid 1px hsl(154, 59%, 51%);
+    font-weight: 600;
+}
+
+#form-text {
+    text-align: center;
+}
+
+#form-text > small {
+    color: hsl(246, 25%, 77%);
+    font-weight: 400;
+}
+
+#form-text > small > a {
+    color: hsl(0, 100%, 74%);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+@media (max-width: 900px) {
+        
+}
