@@ -1,9 +1,5 @@
-# registration-form-task
+# Registration Form-Task
 This is a task from the I4G X ZURI TEAM. I was asked to create and design a responsive registration form  
-
-# Frontend Mentor - Intro section with dropdown navigation solution
-
-This is a solution to the [Intro section with dropdown navigation challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/intro-section-with-dropdown-navigation-ryaPetHE5).
 
 ## Table of contents
 
@@ -13,7 +9,6 @@ This is a solution to the [Intro section with dropdown navigation challenge on F
 - [My process](#my-process)
   - [Built with](#built-with)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -21,7 +16,7 @@ This is a solution to the [Intro section with dropdown navigation challenge on F
 
 ### Links
 
-- [Solution URL](https://github.com/codayomide/frontpage-design-project)
+- [Solution URL](https://codayomide-registration-form-task.netlify.app)
 
 ## My process
 
