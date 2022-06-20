@@ -4,7 +4,6 @@ This is a task from the I4G X ZURI TEAM. I was asked to create and design a resp
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
