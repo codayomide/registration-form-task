@@ -1,4 +1,4 @@
-# Registration Form-Task
+# Registration Form Task
 This is a task from the I4G X ZURI TEAM. I was asked to create and design a responsive registration form  
 
 ## Table of contents
