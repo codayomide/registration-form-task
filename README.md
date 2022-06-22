@@ -15,7 +15,7 @@ This is a task from the I4G X ZURI TEAM. I was asked to create and design a resp
 
 ### Links
 
-- [Solution URL](https://codayomide-registration-form-task.netlify.app)
+- [Solution URL](https://codayomide.github.io/registration-form-task)
 
 ## My process
 
