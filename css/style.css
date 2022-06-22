@@ -25,7 +25,7 @@ body {
     display: grid;
     grid-template-columns: 50% 50%;
 
-    padding: 15px;
+    /* padding: 15px; */
 }
 
 #info {
@@ -140,5 +140,40 @@ body {
 }
 
 @media (max-width: 900px) {
-        
+    #container {
+        height: auto;
+    }
+
+    #main {
+        display: flex;
+        flex-direction: column;
+
+        min-height: fit-content;
+    }
+
+    #info h1,
+    #info p {
+        text-align: center;
+        font-size: revert;
+    }
+
+    #trial-info {
+        font-size: revert;
+
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    #register {
+        height: fit-content;
+    }
+
+    #form input,
+    #form button {
+        padding: 15px 20px;
+        margin: 7.5px 0px;
+
+        font-size: revert;
+    }
+
 }
