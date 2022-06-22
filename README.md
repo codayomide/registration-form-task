@@ -15,7 +15,7 @@ This is a task from the I4G X ZURI TEAM. I was asked to create and design a resp
 
 ### Links
 
-- [Solution URL](https://codayomide.github.io/registration-form-task)
+Solution URL- [https://codayomide.github.io/registration-form-task](https://codayomide.github.io/registration-form-task)
 
 ## My process
 
