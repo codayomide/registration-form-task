@@ -24,24 +24,32 @@
                 <div id="trial-info"><b>Try it free 7 days</b> then $20/mo. thereafter</div>
 
                 <form id="form">
-                    <div>
+                    <div class="input-container">
                         <input type="text" name="first Name" placeholder="First Name">
+                        <img src="./resources/images/icon-error.svg" alt="" class="error-icon">
+                        <small class="error-msg">First Name cannot be empty</small>
                     </div>
 
-                    <div>
+                    <div class="input-container">
                         <input type="text" name="Last Name" placeholder="Last Name">
+                        <img src="./resources/images/icon-error.svg" alt="" class="error-icon">
+                        <small class="error-msg">Last Name cannot be empty</small>
                     </div>
 
-                    <div>
+                    <div class="input-container">
                         <input type="email" name="Email Address" placeholder="Email Address">
+                        <img src="./resources/images/icon-error.svg" alt="" class="error-icon">
+                        <small class="error-msg">Looks like this is not an email</small>
                     </div>
 
-                    <div>
+                    <div class="input-container">
                         <input type="password" name="Password" placeholder="Password">
+                        <img src="./resources/images/icon-error.svg" alt="" class="error-icon">
+                        <small class="error-msg">Password cannot be empty</small>
                     </div>
                     
                     <div>
-                        <button>CLAIM YOUR FREE TRIAL</button>
+                        <button id="submit-btn">CLAIM YOUR FREE TRIAL</button>
                     </div>
 
                     <div id="form-text"><small>By clicking the button, you are agreeing to our <a href="">Terms and Services</a></small></div>
@@ -49,5 +57,7 @@
             </section>
         </main>
     </div>
+
+    <script src="./index.js"></script>
 </body>
 </html>

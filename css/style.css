@@ -1,3 +1,14 @@
+:root {
+    --red: hsl(0, 100%, 74%);
+    --green: hsl(154, 59%, 51%);
+    
+    --white: white;
+    --blue: hsl(248, 32%, 49%);
+
+    --dark-blue: hsl(249, 10%, 26%);
+    --grayish-blue: hsl(246, 25%, 77%);
+}
+
 * {
     margin: 0%;
     padding: 0%;
@@ -6,7 +17,11 @@
 
 body {
     font-family: "Poppins", sans-serif;
-    background-color: hsl(0, 100%, 74%);
+    background-color: var(--red);
+}
+
+small {
+    font-weight: 400;
 }
 
 #container {
@@ -39,7 +54,7 @@ body {
 #info h1 {
     font-size: 50px;
     font-weight: 700;
-    color: white;
+    color: var(--white);
 
     padding: 10px 0px;
 }
@@ -47,7 +62,7 @@ body {
 #info p {
     font-size: 16px;
     font-weight: 500;
-    color: white;
+    color: var(--white);
 
     padding: 10px 0px;
 }
@@ -61,8 +76,8 @@ body {
 }
 
 #trial-info {
-    background-color: hsl(248, 32%, 49%);
-    color: white;
+    background-color: var(--blue);
+    color: var(--white);
 
     text-align: center;
     font-size: 16px;
@@ -79,7 +94,7 @@ body {
 }
 
 #form {
-    background-color: white;
+    background-color: var(--white);
 
     flex-grow: 1;
 
@@ -95,35 +110,69 @@ body {
     width: 100%;
 }
 
+.input-container {
+    position: relative;
+}
+
 #form input,
 #form button {
     width: 100%;
     font-size: 16px;
 
     border-radius: 5px;
-    padding: 15px 30px;
+    padding: 10px 20px;
     font-family: "Poppins", sans-serif;
 }
 
 #form input {
-    border: solid 1px hsl(246, 25%, 77%);
+    border: solid 1px var(--grayish-blue);
     font-weight: 600;
 
     outline: none;
 }
 
 #form input:focus {
-    border: solid 2px hsl(248, 32%, 49%);
+    border: solid 2px var(--blue);
 
-    caret-color: hsl(248, 32%, 49%);
+    caret-color: var(--blue);
+}
+
+#form input:focus::placeholder {
+    color: var(--dark-blue);
+}
+
+.error-icon {
+    position: absolute;
+    right: 0;
+
+    padding: 10px 20px;
+    opacity: 0;
+}
+
+.error-msg {
+    color: var(--red);
+    
+    text-align: right;
+    font-style: italic;
+    font-weight: 500;
+
+    margin: 5px 0px;
+    display: none;
 }
 
 #form button {
-    background-color: hsl(154, 59%, 51%);
-    color: white;
+    background-color: var(--green);
+    color: var(--white);
 
-    border: solid 1px hsl(154, 59%, 51%);
+    border: solid 1px var(--green);
     font-weight: 600;
+
+    cursor: pointer;
+    transition: all 0.8s ease;    
+}
+
+#form button:hover {
+    opacity: 0.6;
 }
 
 #form-text {
@@ -131,8 +180,7 @@ body {
 }
 
 #form-text > small {
-    color: hsl(246, 25%, 77%);
-    font-weight: 400;
+    color: var(--grayish-blue);
 }
 
 #form-text > small > a {
@@ -180,10 +228,17 @@ body {
 
     #form input,
     #form button {
-        padding: 15px 20px;
-        margin: 7.5px 0px;
+        padding: 10px 20px;
+        margin: 5px 0px;
 
         font-size: revert;
     }
 
+    .error-icon {
+        padding: 15px 20px;
+    }
+
+    .error-msg {
+        margin: 0px;
+    }
 }
